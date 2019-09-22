@@ -1,0 +1,30 @@
+----------------
+
+ <dependencies>
+            <dependency>
+                <groupId>com.sun.mail</groupId>
+                <artifactId>javax.mail</artifactId>
+                <version>1.6.2</version>
+            </dependency>
+        </dependencies>
+
+https://www.youtube.com/watch?v=pPdnxc754Dg
+
+javax.mail
+
+https://www.youtube.com/watch?v=G4PUeYbqO80  ---in sesson user authentication checking (usename and pwd)
+mvn dependency:tree
+mvn spring-boot:run
+apply aysynchronous to mail
+
+new File("/path/to/file.xls").setReadOnly();
+CellStyle.setLocked(true)
+https://stackoverflow.com/questions/3746441/making-excel-sheet-read-only
+
+/* cell style for locking */
+CellStyle lockedCellStyle = workbook.createCellStyle();
+lockedCellStyle.setLocked(true);
+/* cell style for editable cells */
+CellStyle unlockedCellStyle = workbook.createCellStyle();
+unlockedCellStyle.setLocked(false);
+https://memorynotfound.com/spring-mail-sending-email-attachment-configuration-example/
